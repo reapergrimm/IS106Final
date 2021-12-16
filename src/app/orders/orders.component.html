@@ -79,3 +79,20 @@
       <button mat-raised-button color="primary" (click)="flex2.modal.cancel()">Close</button>
   </div>
 </app-flex-modal>
+<!-- the calculation modal -->
+<app-flex-modal #flex3
+  [transition]="'slide-in-right'"
+  [modalStyle]="{'border':'5px solid #CCC'}"
+  [showToolbar]="true"
+  [showDefaultAction]="false"
+  [modalID]="'error-modal'"
+  [width]="'615px'"
+  [height]="'auto'">
+  <span class="modal-title">Totals</span>
+  <div class="modal-content">
+    <h3>{{totalsMessage}}</h3>
+  </div>
+  <div class="modal-action">
+      <button mat-raised-button color="primary" (click)="flex3.modal.cancel()">Close</button>
+  </div>
+</app-flex-modal>
