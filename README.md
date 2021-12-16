@@ -1,4 +1,4 @@
-# Exam 1
+# IS106 Final
 
 
 ## Development server
@@ -30,9 +30,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### Computer Solution Problem (250 points)
 
-1. Written component 25pts (~ 25 minutes)
-2. GITFlow component 25pts (~ 10 minutes)
-3. Code component 50pts (~ 115 minutes)
+1. GITFlow component 75pts (~ 10 minutes)
+2. Code component 175pts (~ 100 minutes)
 
 You can use any resources including  your books, notes, and memos for completing this part of
 the test; however, you cannot ask, share, or consult with anyone in the world. You cannot use
@@ -46,11 +45,11 @@ Push all the files onto your GITHub repo and change name of the top folder to
 
 Make sure the computer, VS Code, and the files / application is all working properly with no errors or warnings.
 
-### Code Component - Best Part Sales Project
+### Code Component - Food Ordering Project
 
-You are hired to create a Web application to computerize Best Part sales process. The application should have a structure that stores the following part data: PID (a string), Description (a string), Price (a number) and Inventory (an number). The company currently carries only three parts as shown in the table below and the application should use an array of three custom objects (interface). If you don’t know how to use an array of three object variables, you can use  array of objects instead with 5 points penalty.
+You are hired to create a Web application to computerize Food Ordering process. The application should have an interface that stores the following food items: PID (a string), Description (a string), Price (a number) and Qantity (a number). The company currently carries only three items as shown in the table below and the application should use an array of three custom objects (interface).
 
-#### PID Description Price Inventory
+#### PID, Description, Price, Quantity
 2. 1 Hot Dog 5.00 2
 3. 2 Hamberger 6.00 1
 4. 3 Pizza 12.00 2
@@ -123,6 +122,7 @@ When the delete button is pressed, delete the corresponding item from the list.
 
 ## Points Breakdown
 
+<<<<<<< HEAD
 <!-- 1. Launch flex modal or alert (.5pts reduced) showing about text 2.5pts -->
 <!-- 2. convert name from <Last Name>, <First Name> to <First Name> <Last Name>  -->
 and display text 2.5 pts
@@ -140,3 +140,21 @@ and display text 2.5 pts
 <!-- 7. delete line item (order) when delete button is click 7.5 pts -->
 <!-- 8. read in the orders.json file and populate the list table with the initial orders (3) 7.5pts -->
 9. Display calculated results on a flex-modal (see screenshot) 2.5 pts
+=======
+1. Launch flex modal or alert (1pts reduced) showing about text 10pts
+2. convert name from <Last Name>, <First Name> to <First Name> <Last Name> and display text 10pts
+3. Calculate sub total, tax amount and total 20pts
+4. perform input validation (use alert - 1pts reduced)
+  ```
+  (use alert - 1pts reduced for each of the four validation)
+1. Name input field not specified. 10pts
+2. Name not containing a “, ”. 10pts
+3. Input values within table null values. 10pts
+4. Subtotal, tax amount and invoice total calculation error 10pts
+  ```
+5. Clear the orders form 10pts
+6. Add items 'Hot Dog', 'Hamberger' and 'Pizza' to list when corresponding button is clicked 20pts
+7. delete line item (order) when delete button is click 20 pts
+8. read in the orders.json file and populate the list table with the initial orders (3) 20pts
+9. Display calculated results on a flex-modal (see screenshot) 25 pts
+>>>>>>> 07b03ffb176c7bdc966ec01c3d56e6089fba829a
